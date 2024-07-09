@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Universal Render Pipeline_Fur_Shell_Lit
+  m_Shader: {fileID: 4800000, guid: 589ea0397284e0e42b1985a0455d66b2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _GEOM_INSTANCING
+  - _NO_FUR_SHADOW
+  m_InvalidKeywords:
+  - _MATERIAL_TYPE_LIT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 577726ce17d95bd46880efecfc7de528, type: 3}
+        m_Scale: {x: 30, y: 28.09}
+        m_Offset: {x: 18.9, y: 0}
+    - _FurDirMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurLengthMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurMap:
+        m_Texture: {fileID: 2800000, guid: e1ac6060e3765e745bfc69b2a8ec2db4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 099a76a9ef3f605499a5c873faff6105, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PreIntegratedAverageHairFiberScattering:
+        m_Texture: {fileID: 11700000, guid: 90d7a19df72dfc64fa7d6b18b90cf3c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutout: 0.2
+    - _AlphaToCoverageOn: 0
+    - _Area: 0.233
+    - _Backlit: 0.256
+    - _BentType: 0
+    - _ConsiderShadow: 0
+    - _CuticleAngle: 3
+    - _FurLengthIntensity: 5
+    - _FurRimLighting: 0
+    - _FurRimLightingDeferred: 0
+    - _FurScale: 22.5
+    - _FurSmoothness: 0
+    - _FurSpecular: 0
+    - _FurSpecularDeferred: 0
+    - _GeomInstancing: 1
+    - _GroomingIntensity: 0
+    - _Kappa: 0.92
+    - _Material_Type: 0
+    - _MedulaAbsorb: 0.625
+    - _MedulaScatter: 0.75
+    - _Metallic: 0
+    - _NoFurShadow: 1
+    - _NormalScale: 0.34
+    - _Occlusion: 1
+    - _RadialSmoothness: 0.7
+    - _RimLightIntensity: 1
+    - _RimLightPower: 20
+    - _RootSmoothness: 0.6
+    - _ShadowExtraBias: 0
+    - _ShellAmount: 32
+    - _Smoothness: 0.291
+    - _SpecularHighlights: 1
+    - _TipSmoothness: 0.8
+    - _TotalShellStep: 0.5
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseMove: {r: 0, g: 0, b: 0, a: 3}
+    - _RootColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TipColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WindFreq: {r: 0.5, g: 0.7, b: 0.9, a: 1}
+    - _WindMove: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

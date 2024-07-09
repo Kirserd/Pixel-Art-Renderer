@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CoreEffect
+  m_Shader: {fileID: -6465566751694194690, guid: 79834340969d69347b668972a14087a1,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SceneViewSpaceNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CRTIntensity: 0.15
+    - _CRTScale: 4
+    - _Curvature: 1.01
+    - _DepthThreshold: 0.7
+    - _OutlineColorCavity: 24
+    - _OutlineColorCavityLight: 1.2
+    - _OutlineColorDivider: 20
+    - _OutlineColorLock: 5
+    - _OutlineColorSaturator: 0.92
+    - _OutlineScale: 0.5
+    - _RobertsCrossMultiplier: 90
+    - _ScanlineScale: 2.2
+    - _SteepAngleMultiplier: 150
+    m_Colors:
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineOpacity: {r: 0, g: 0, b: 0, a: 0}
+    - _PixelSize: {r: 0.0024, g: 0.0024, b: 0, a: 0}
+    - _PixelisationFactor: {r: 2, g: 2, b: 0, a: 0}
+    - _Resolution: {r: 640, g: 320, b: 0, a: 0}
+  m_BuildTextureStacks: []

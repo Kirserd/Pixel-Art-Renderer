@@ -1,0 +1,20 @@
+﻿public enum BoneSet
+{
+    Head,
+    L_Shoulder,
+    R_Shoulder,
+    L_UpperArm,
+    R_UpperArm,
+    L_LowerArm,
+    R_LowerArm,
+    L_Hand,
+    R_Hand,
+    L_UpperTorso,
+    R_LowerTorso,
+    L_UpperLeg,
+    R_UpperLeg,
+    L_LowerLeg,
+    R_LowerLeg,
+    L_Foot,
+    R_Foot,
+}
